@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1703.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDE.Client", "MDE.Client\MDE.Client.csproj", "{71C78F64-A4A9-4136-A3CC-E997D705B7BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDE.Api", "MDE.Api\MDE.Api.csproj", "{953AE133-5CC8-4DF3-B979-69D114E22796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDE.Infrastructure", "MDE.Infrastructure\MDE.Infrastructure.csproj", "{0AC67F3F-B8C2-44AF-8C53-D6752C0B8CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{71C78F64-A4A9-4136-A3CC-E997D705B7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71C78F64-A4A9-4136-A3CC-E997D705B7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71C78F64-A4A9-4136-A3CC-E997D705B7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953AE133-5CC8-4DF3-B979-69D114E22796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953AE133-5CC8-4DF3-B979-69D114E22796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953AE133-5CC8-4DF3-B979-69D114E22796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953AE133-5CC8-4DF3-B979-69D114E22796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC67F3F-B8C2-44AF-8C53-D6752C0B8CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC67F3F-B8C2-44AF-8C53-D6752C0B8CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC67F3F-B8C2-44AF-8C53-D6752C0B8CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC67F3F-B8C2-44AF-8C53-D6752C0B8CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
